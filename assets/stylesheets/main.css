@@ -1,0 +1,120 @@
+@import 'reset.css';
+
+body {
+    font-size: 16px;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.hero_content {
+
+    border: 1px solid;
+    width: 45%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.hero_content_first {
+
+    border: 1px solid;
+    height: 60vh;
+    width: 88%;
+    
+
+}
+
+
+.hero_img {
+
+    border: 1px solid;
+    width: 45%;
+
+}
+
+.hero_img img {
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.welcome_text_first {
+    height: 2px;
+    width: 22px;
+    background-color: blue;
+
+}
+
+.welcome_text {
+    display: flex;
+    align-items: center;
+    color: rgb(50, 172, 238);
+
+}
+
+
+.welcome_text_second p{
+    font-size: 14px;
+    font-weight: 480;
+    letter-spacing: 3px;
+    /*about padding    if have 1 values it will set to allside
+    if have 2  valuesset to top-bottom and left-right
+    if have 3 values set to top left-right bottom
+    if have 4 values set to top left bottom right
+    
+    */
+
+    padding: 2px 2px 2px 10px;
+}
+
+.smile_text{
+    font-size: 5rem;
+}
+
+.description{
+
+font-size: 20px;
+font-weight: 300;
+ line-height: 30px;
+}
+
+
+.book_call{
+    margin-top: 40px;
+   
+     
+}
+
+.book_call p{
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.book_call button{
+
+    padding: 15px 50px;
+    border-radius: 10px;
+     outline: none;
+     /* border: none; */
+    
+}
+
+.appointment{
+    border: none;
+    background-color: rgb(167,228,242);
+}
+
+.call_btn{
+    margin-left: 22px;
+    border: 2px solid rgb(42,124,141);
+     background-color: transparent;
+     color: rgb(42, 124, 141);
+}
