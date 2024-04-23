@@ -14,10 +14,9 @@ body {
 .hero_content {
 
     border: 1px solid;
-    width: 45%;
+    width: 50%;
     display: flex;
     align-items: center;
-
 
 }
 
@@ -131,19 +130,21 @@ font-weight: 300;
 
 .exceptional_img{
     border: 1px solid;
-    width: 45%;
+    width: 40%;
+    
 }
 
 .exceptional_img img{
     width: 100%;
     border-radius: 25px;
+    height: 100%;
 }
 
 .exceptional_content{
     border: 1px solid;
-    width: 43%;
+    width: 46%;
     height: 90vh;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .exceptional_content div h2{
@@ -159,12 +160,10 @@ font-weight: 300;
 
 .exceptional_tick div{
     display: flex;
-     
+    
 }
 
 .exceptional_tick img{
-    border: 1px solid;
-    font-weight: 300;
     padding: 2px 4px 0px  0px;
     
     
@@ -180,18 +179,61 @@ font-weight: 300;
 
 .learn_more button{
 width: 28%;
-background-color: #9AD9E8;
+background-color: rgb(167,228,242);
 padding: 15px;
  align-content: center;
  border-radius: 5px;
  border: none;
  cursor: pointer;
- margin-top: 30px;
+ margin-top: 20px;
 }
 
 .learn_more button a{
-    text-decoration: none;
+   text-decoration: none;
     font-size: 1rem;
-    text-co
+    color: black;
+}
 
+
+
+.services{
+     margin-top: 120px;
+     background-color: rgb(39,122,140);
+}
+
+.services_content{
+    border: 1px solid;
+     width: 52%;
+     height: 100vh;
+      justify-content: center;
+    }
+
+.services_first{
+    height: 2px;
+    width: 22px;
+    background-color: rgb(167,228,242);
+   font-size: 14px;
+   font-weight: 500;
+}
+
+
+.services_text p{
+    font-size: 14px;
+    font-weight: 500;
+   color: rgb(167,228,242);
+}
+.services_content div{
+    display: flex;
+}
+
+.services_content h1{
+    font-size: 56px;
+     color: white;
+     font-weight: 400;
+}
+
+.services_second p{
+    font-size: 14px;
+    font-weight: 480;
+    letter-spacing: 3px;
 }
